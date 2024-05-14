@@ -1,0 +1,63 @@
+﻿@page "/auth"
+
+@using Microsoft.AspNetCore.Authorization
+@rendermode InteractiveServer
+
+
+@attribute [Authorize]
+
+<PageTitle>Auth</PageTitle>
+
+<h1>You are authenticated</h1>
+
+<AuthorizeView>
+    Hello @context.User.Identity?.Name!
+</AuthorizeView>
+@* Wybieranie pliku z systemu *@
+<InputFile id="imageInput" OnChange="HandleFileSelected" />
+
+@* Sprawdzanie czy nazwa nie jest pusta *@
+@if (selectedFileName != null)
+{
+    <p>Selected file: @selectedFileName</p>
+}
+
+@* Dodanie ograniczeń rozmiarowych dla obrazu oraz sprawdzanie czy obraz jest załadowany *@
+@if (imageData != null)
+{
+    <img src="@imageUrl" alt="Uploaded Image" style="max-width: 100%; max-height: 400px;" />
+}
+else
+{
+    <p>No image available</p>
+}
+
+@code {
+    private string imageUrl; // Adres url obrazu
+    private string selectedFileName; // Nazwa wybranego pliku
+    private byte[] imageData; // Tablica bajtów do danych obrazu
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        // Pobranie referencji do wybranego pliku z argumentu zdarzenia
+        var file = e.File;
+
+        if (file != null)
+        {
+            selectedFileName = file.Name;
+
+            // Utworzenie obiektu MemoryStream do przechowywania danych pliku
+            using var memoryStream = new MemoryStream();
+
+            // Skopiowanie danych z pliku do MemoryStream (asynchronicznie)
+            await file.OpenReadStream().CopyToAsync(memoryStream);
+
+            // Konwersja danych z MemoryStream do tablicy bajtów
+            imageData = memoryStream.ToArray();
+
+            // Konwersja tablicy bajtów na Base64 i utworzenie adresu URL obrazu
+            var imageBytes = Convert.ToBase64String(imageData);
+            imageUrl = $"data:{file.ContentType};base64,{imageBytes}";
+        }
+    }
+}

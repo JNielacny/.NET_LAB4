@@ -1,0 +1,122 @@
+﻿@page "/movies"
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject BlazorFilmy.Data.ApplicationDbContext DB
+@using BlazorFilmy.Components
+@using Microsoft.EntityFrameworkCore
+@rendermode InteractiveServer
+
+<PageTitle>List of the movies</PageTitle>
+
+<h1>Movies</h1>
+
+<p>
+    <a href="movies/create">Create New</a>
+</p>
+
+@if (sortMovies != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                @* Wiersz nagłówkowy z nazwami kolumn z interakcją - kliknięcie oznacza sortowanie po niej *@
+                <th @onclick="() => SortData(nameof(Movie.Title))">Title</th>
+                <th @onclick="() => SortData(nameof(Movie.ReleaseDate))">Date</th>
+                <th> Description </th>
+                <th @onclick="() => SortData(nameof(Movie.Rate))">Rate</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Dla kolejnych filmów z listy *@
+            @foreach (var movie in sortMovies)
+            {
+                <tr>
+                    @* Wyświetlanie wartości danego filmu *@
+                    <td>@movie.Title</td>
+                    <td>@movie.ReleaseDate</td>
+                    <td>@movie.Description</td>
+                    <td>
+                        @* Zabawa w zaokrąglanie do dwóch miejsc po przecinku *@
+                        @if (Math.Round(Convert.ToDecimal(movie.Rate), 2) == 0)
+                        {
+                            <text>Brak ocen</text>
+                        }
+                        else
+                        {
+                            <dd class="col-sm-10">@Math.Round(Convert.ToDecimal(movie.Rate), 2)</dd>
+                        }
+                    </td>
+                    <td>
+                         <AuthorizeView>
+                            <Authorized>
+                                @* Dla zautoryzowanych opcje Details, Edit i Delete dla reszty tylko details *@
+                                <a href="@($"movies/edit?id={movie.Id}")">Edit</a> |
+                                <a href="@($"movies/details?id={movie.Id}")">Details</a> |
+                                <a href="@($"movies/delete?id={movie.Id}")">Delete</a>
+                            </Authorized>
+                            <NotAuthorized>
+                                <a href="@($"movies/details?id={movie.Id}")">Details</a>
+                            </NotAuthorized>
+                        </AuthorizeView>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p><em>Loading...</em></p>
+}
+@code {
+    // Lista filmów
+    private List<Movie> movie;  // Lista filmów
+    private List<Movie> sortMovies; // Lista posortowanych filmów
+    private string currentColumn;   // Aktualna kolumna
+    private bool isAscending = true;    // Kierunek sortowania - czy rośnie czy maleje
+
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await DB.Movie.ToListAsync();   // Pobranie listy filmów z bazy
+        sortMovies = movie; // Przypisanie pobranej listy do listy do posortowania
+        SortData(nameof(Movie.Title));  // Sortowanie po tytule
+    }
+
+    private void SortData(string columnName)    // Metoda do sortowania
+    {
+        if (columnName == currentColumn)
+        {
+            isAscending = !isAscending; // Zmiana kierunku
+        }
+        else
+        {
+            currentColumn = columnName; // Aktualna kolumna
+            isAscending = true; // Domyślnie
+        }
+
+        // Sortowanie listy filmów zgodnie z wybraną kolumną i kierunkiem sortowania
+        sortMovies = isAscending ? movie.OrderBy(x => GetPropertyValue(x, columnName)).ToList()
+                                  : movie.OrderByDescending(x => GetPropertyValue(x, columnName)).ToList();
+
+        StateHasChanged();  // Aktualizacja widoku choć chyba niekonieczna przez wcześniejsze rendermode
+    }
+
+    private object GetPropertyValue(object obj, string propName)
+    {
+        return obj.GetType().GetProperty(propName).GetValue(obj, null); // Pobranie wartości właściwości obiektu
+    }
+}
+
+@* <QuickGrid Class="table" Items="DB.Movie">
+    <PropertyColumn Property="movie => movie.Title" />
+    <PropertyColumn Property="movie => movie.Description" />
+    <PropertyColumn Property="movie => movie.RelaseDate" />
+    <PropertyColumn Property="movie => movie.Rate" />
+
+    <TemplateColumn Context="movie">
+        <a href="@($"movies/edit?id={movie.Id}")">Edit</a> |
+        <a href="@($"movies/details?id={movie.Id}")">Details</a> |
+        <a href="@($"movies/delete?id={movie.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+*@

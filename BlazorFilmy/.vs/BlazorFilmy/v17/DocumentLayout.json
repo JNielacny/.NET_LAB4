@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|d:\\users\\nacze\\pulpit\\blazor\\blazorfilmy\\blazorfilmy\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\moviepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\moviepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\moviepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\moviepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\moviepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\moviepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\blazorfilmy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\blazorfilmy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\components\\pages\\moviepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\components\\pages\\moviepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\blazorfilmy\\data\\migrations\\20240507134648_migracja3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:blazorfilmy\\data\\migrations\\20240507134648_migracja3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9566BFCD-25BB-4C2F-A3BA-DE1F030EE57C}|BlazorFilmy\\BlazorFilmy.csproj|solutionrelative:BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-07T20:05:57.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T18:08:43.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Details.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\MoviePages\\Details.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Details.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\MoviePages\\Details.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:12:04.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\Auth.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Auth.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\Auth.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:11:36.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAADEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:57:18.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\MoviePages\\Edit.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Edit.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\MoviePages\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:11:43.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T16:36:42.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T16:52:25.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlazorFilmy.csproj",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\BlazorFilmy.csproj",
+              "RelativeDocumentMoniker": "BlazorFilmy\\BlazorFilmy.csproj",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\BlazorFilmy.csproj",
+              "RelativeToolTip": "BlazorFilmy\\BlazorFilmy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T16:50:27.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240507160019_migracja5.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\Migrations\\20240507160019_migracja5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:00:20.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240507142002_migracja4.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\Migrations\\20240507142002_migracja4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:20:02.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240507134648_migracja3.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507134648_migracja3.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\Migrations\\20240507134648_migracja3.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507134648_migracja3.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\Migrations\\20240507134648_migracja3.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:46:49.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\MoviePages\\Delete.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Delete.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\MoviePages\\Delete.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:44:56.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240507123817_migracja2.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\Migrations\\20240507123817_migracja2.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:38:17.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\MoviePages\\Index.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Index.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\MoviePages\\Index.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:35:11.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "movie.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\movie.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\movie.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\movie.cs",
+              "RelativeToolTip": "BlazorFilmy\\Components\\movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T11:52:12.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAADcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:33:40.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:31:40.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Components\\Pages\\MoviePages\\Create.razor",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Components\\Pages\\MoviePages\\Create.razor",
+              "RelativeToolTip": "BlazorFilmy\\Components\\Pages\\MoviePages\\Create.razor",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:02:21.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240507114954_migracja.cs",
+              "DocumentMoniker": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs",
+              "RelativeDocumentMoniker": "BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs",
+              "ToolTip": "D:\\Users\\nacze\\Pulpit\\BLAZOR\\BlazorFilmy\\BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs",
+              "RelativeToolTip": "BlazorFilmy\\Data\\Migrations\\20240507114954_migracja.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T11:49:54.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
